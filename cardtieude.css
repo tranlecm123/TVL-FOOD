@@ -1,0 +1,24 @@
+.category-header {
+    text-align: center;
+    font-size: 1.6em;
+    margin-top: 40px;
+    font-weight: bold;
+    padding: 15px;
+    border: 3px solid #007bff;
+    border-radius: 10px; 
+    background-color: #f8f9fa;
+    display: inline-block; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; 
+}
+
+.category-header:hover {
+    background-color: #e9ecef;
+    border-color: #0056b3; 
+    transform: translateY(-5px);
+}
+
+.category-header h2 {
+    margin: 0;
+    color: #333;
+}
